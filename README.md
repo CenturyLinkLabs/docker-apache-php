@@ -3,15 +3,6 @@ panamax-docker-php
 
 Base docker image to run PHP applications on Apache
 
-
-Usage
------
-
-To create the image `panamax/docker-php`, execute the following command on the panamax-docker-php folder:
-
-	docker build -t panamax/docker-php .
-
-
 Installing your PHP application
 -------------------------------
 
