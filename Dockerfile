@@ -9,6 +9,9 @@ RUN apt-get update && \
  curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin && \
  mv /usr/local/bin/composer.phar /usr/local/bin/composer
 
+# Enable apache rewrite module
+RUN a2enmod rewrite
+
 # Add image configuration and scripts
 ADD start.sh /start.sh
 ADD run.sh /run.sh
