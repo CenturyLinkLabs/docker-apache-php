@@ -9,6 +9,9 @@ RUN apt-get update && \
  curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin && \
  mv /usr/local/bin/composer.phar /usr/local/bin/composer
 
+# Override default apache conf
+ADD apache.conf /etc/apache2/sites-enabled/000-default.conf
+
 # Enable apache rewrite module
 RUN a2enmod rewrite
 
