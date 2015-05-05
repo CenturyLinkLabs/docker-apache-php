@@ -1,5 +1,6 @@
 panamax-docker-php
 ================
+[![](https://badge.imagelayers.io/centurylink/apache-php.svg)](https://imagelayers.io/?images=centurylink/apache-php:latest 'Get your own badge on imagelayers.io')
 
 Base docker image to run PHP applications on Apache
 
