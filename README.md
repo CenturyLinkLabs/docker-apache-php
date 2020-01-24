@@ -1,3 +1,7 @@
+## NOTE
+
+This repo is no longer being maintained. Users are welcome to fork it, but we make no warranty of its functionality.
+
 panamax-docker-php
 ================
 [![](https://badge.imagelayers.io/centurylink/apache-php.svg)](https://imagelayers.io/?images=centurylink/apache-php:latest 'Get your own badge on imagelayers.io')
